@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Damion&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 .App {
-  font-family: Damion;
   text-align: center;
 }
 
@@ -25,6 +25,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  font-family: Damion
 }
 
 .App-link {
