@@ -25,7 +25,11 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-  font-family: Damion
+  font-family: Damion;
+}
+
+.General-text {
+  font-family: Montserrat;
 }
 
 .App-link {
