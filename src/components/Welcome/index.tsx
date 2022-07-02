@@ -5,7 +5,7 @@ export default class Welcome extends React.Component {
 
     render() {
         return (
-            <section className="relative">
+            <section className="relative bg-hero bg-no-repeat bg-cover bg-center bg-fixed">
 
                 {/* Hero content */}
                 <div className="max-w-6xl mx-auto px-4 sm:px-6">
