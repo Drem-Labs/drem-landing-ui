@@ -6,13 +6,16 @@ export {};
 
 function App() {
   return (
-    <div className="flex flex-col min-h-screen overflow-hidden">
+    <div className="flex min-h-screen overflow-hidden">
 
-      <header>
-        <Nav></Nav>
-      </header>
-      <main className="flex-grow">
-        <Hero></Hero>
+      <main className="flex-grow relative">
+        <div className="">
+          <Hero></Hero>  
+        </div>
+        <div className="absolute inset-x-0 top-0">
+          <Nav></Nav>  
+        </div>
+        
       </main>
 
     </div>

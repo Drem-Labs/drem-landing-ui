@@ -1,5 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Damion&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Damion&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+.layer-2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.layer-1 {
+  position: relative;
+}
 
 .App {
   text-align: center;
