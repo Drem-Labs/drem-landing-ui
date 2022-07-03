@@ -9,10 +9,11 @@ function App() {
     <div className="flex min-h-screen overflow-hidden">
 
       <main className="flex-grow relative">
-        <div className="">
+        <div>
           <Hero></Hero>  
         </div>
-        <div className="absolute inset-x-0 top-0">
+
+        <div className="fixed inset-x-0 top-0">
           <Nav></Nav>  
         </div>
         
