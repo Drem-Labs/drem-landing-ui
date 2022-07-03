@@ -1,7 +1,7 @@
 import React from 'react';
 import './index.css';
 import Nav from '../Nav'
-import Welcome from '../Welcome'
+import Hero from '../Hero'
 export {};
 
 function App() {
@@ -12,7 +12,7 @@ function App() {
         <Nav></Nav>
       </header>
       <main className="flex-grow">
-        <Welcome></Welcome>
+        <Hero></Hero>
       </main>
 
     </div>
