@@ -2,7 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
+@layer base {
+  html {
+    font-family: Monserrat, system-ui, sans-serif;
+  }
+}
+
+/* body,
+html {
   margin: 0;
   font-family: Montserrat;
   -webkit-font-smoothing: antialiased;
@@ -12,4 +19,4 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
-}
+} */
