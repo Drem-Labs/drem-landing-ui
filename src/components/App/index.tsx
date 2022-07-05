@@ -1,6 +1,7 @@
 import React from 'react';
 import './index.css';
 import Hello from '../../hello-world';
+import Footer from '../Footer';
 import Nav from '../Nav'
 export {};
 
@@ -12,7 +13,8 @@ function App() {
       </header>
       <div className='p-4'>
         <Hello></Hello>
-    </div>
+      </div>
+      <Footer></Footer>
     </div>
 
   );
