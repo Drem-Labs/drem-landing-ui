@@ -2,6 +2,7 @@ import React from 'react';
 import './index.css';
 import Nav from '../Nav'
 import Hero from '../Hero'
+import Subheading from '../Subheading'
 export {};
 
 function App() {
@@ -11,6 +12,12 @@ function App() {
       <main className="flex-grow relative">
         <div>
           <Hero></Hero>  
+        </div>
+
+        <div>
+          <Subheading text={'Text for subheading #1'} image={' '}/>
+          <Subheading text={'Text for subheading #2'} image={' '}/>
+          <Subheading text={'Text for subheading #2'} image={' '}/>
         </div>
 
         <div className="fixed inset-x-0 top-0">
