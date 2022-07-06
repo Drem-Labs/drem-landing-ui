@@ -4,8 +4,10 @@ import './index.css';
 function Subheading(props: any) {
     return (
         <div>
-            <h4>{props.text}</h4>
-            <image>{props.image}</image>
+            <h3 className="General-text" style={{color:"#0029FF"}}>{props.title}</h3>
+            <h4 className="General-text">{props.text}</h4>
+            <img alt="Subheader Img" src={props.image}></img>
+
         </div>
     )
 }
