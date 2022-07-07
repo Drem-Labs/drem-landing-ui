@@ -2,7 +2,8 @@ import React from 'react';
 import './index.css';
 import Nav from '../Nav'
 import Hero from '../Hero'
-import background from '/images/photos/nobg-wide-final-1440p.png'
+import Background from '../Body_Background'
+import Subheading from '../Subheading'
 export {};
 
 function App() {
@@ -17,7 +18,15 @@ function App() {
         <Hero></Hero>  
       </div>
 
+      <Background></Background>
+      <div>
+        <Subheading text={'Text for subheading #1'} image={' '}/>
+        <Subheading text={'Text for subheading #2'} image={' '}/>
+        <Subheading text={'Text for subheading #2'} image={' '}/>
+      </div>
+
     </div>
+    
 
   );
 }
