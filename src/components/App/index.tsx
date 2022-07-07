@@ -2,7 +2,6 @@ import React from 'react';
 import './index.css';
 import Nav from '../Nav'
 import Hero from '../Hero'
-import Background from '../Body_Background'
 import Subheading from '../Subheading'
 export {};
 
@@ -14,8 +13,8 @@ function App() {
         <div>
           <Hero></Hero>  
         </div>
-        <Background></Background>
-        <div>
+
+        <div className="relative bg-white shadow-[0_-8px_6px_6px_rgba(0,0,0,0.25)]">
           <Subheading text={'Text for subheading #1'} image={' '}/>
           <Subheading text={'Text for subheading #2'} image={' '}/>
           <Subheading text={'Text for subheading #2'} image={' '}/>
