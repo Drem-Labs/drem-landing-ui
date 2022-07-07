@@ -17,7 +17,7 @@ function App() {
         <Hero></Hero>  
       </div>
 
-      <div className="relative bg-white shadow-[0_-8px_6px_6px_rgba(0,0,0,0.25)] z-10">
+      <div className="relative bg-white shadow-[0_-8px_6px_6px_rgba(0,0,0,0.25)] z-30">
         <Subheading text={'Text for subheading #1'} image={' '}/>
         <Subheading text={'Text for subheading #2'} image={' '}/>
         <Subheading text={'Text for subheading #2'} image={' '}/>
