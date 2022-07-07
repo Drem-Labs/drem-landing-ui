@@ -1,6 +1,5 @@
 import React from 'react';
 import './index.css';
-import Subheading from '../Subheading'
 
 export default class Hero extends React.Component {    
 
