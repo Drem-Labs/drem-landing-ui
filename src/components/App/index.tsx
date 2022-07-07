@@ -10,14 +10,17 @@ function App() {
   return (
     <div className="w-screen">
 
+      {/* Navbar */}
       <div className="fixed inset-x-0 top-0 z-[60]">
         <Nav></Nav>  
       </div>
 
+      {/* Hero */}
       <div className="w-screen">
         <Hero></Hero>  
       </div>
 
+      {/* Rest of Page Content */}
       <div className="absolute inset-x-0 top-0 mt-160 z-50 h-screen bg-white">
         <Background></Background>
         <Subheading text={'Text for subheading #1'} image={' '}/>
