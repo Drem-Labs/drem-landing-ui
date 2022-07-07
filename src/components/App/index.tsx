@@ -18,9 +18,8 @@ function App() {
         <Hero></Hero>  
       </div>
 
-
-      <Background></Background>
       <div className="absolute inset-x-0 top-0 mt-160 z-50 h-screen bg-white">
+        <Background></Background>
         <Subheading text={'Text for subheading #1'} image={' '}/>
         <Subheading text={'Text for subheading #2'} image={' '}/>
         <Subheading text={'Text for subheading #2'} image={' '}/>
