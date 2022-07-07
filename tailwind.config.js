@@ -15,7 +15,9 @@ module.exports = {
         '13': '3.25rem',
         '15': '3.75rem',
         '128': '32rem',
-        '144': '36rem'
+        '144': '36rem',
+        '160': '40rem',
+        '176': '44rem',
       },
       backgroundImage: {
         'hero': "url('../public/images/photos/bg-wide-final-1440p-no-fg.png')",

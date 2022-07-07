@@ -6,7 +6,6 @@ export default class Nav extends React.Component {
     render() {
         return (
             <nav className="
-                relative
                 w-full
                 flex flex-wrap
                 justify-center
