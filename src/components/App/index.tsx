@@ -3,6 +3,7 @@ import './index.css';
 import Nav from '../Nav'
 import Hero from '../Hero'
 import Subheading from '../Subheading'
+import Footer from '../Footer';
 export {};
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
         <Subheading text={'Text for subheading #1'} image={' '}/>
         <Subheading text={'Text for subheading #2'} image={' '}/>
         <Subheading text={'Text for subheading #2'} image={' '}/>
+        <Footer></Footer>
       </div>
 
     </div>
