@@ -3,11 +3,21 @@ import './index.css';
 
 function Subheading(props: any) {
     return (
-        <div>
-            <h3 className="General-text" style={{color:"#0029FF"}}>{props.title}</h3>
-            <h4 className="General-text">{props.text}</h4>
-            <img alt="Subheader Img" src={props.image}></img>
+        <div className="General-text not-italic font-semibold -tracking-[1px] text-clip">  
+            <img alt="Subheader Img" className={props.img_pos} width={props.width} height={props.height} src={props.image}></img>           
+                <div className={props.text_pos}> 
+                    <div className = {props.title_pos}>
+                        <h3 className="text-8xl leading-[96px] pb-2 text-transparent bg-clip-text bg-gradient-to-r from-[#A814AB] to-[#0029FF]">
+                            {props.title}
+                        </h3>
+                    </div>
 
+                    <h4 className="text-[32px] leading-[48px] text-[#06080F]">{props.text}</h4>
+                </div>
+
+
+            <div className="w-[639px] border-t-[1px] border-[#7A7A7A] mx-auto my-[300px]"></div> {/* to test */}
+        
         </div>
     )
 }
