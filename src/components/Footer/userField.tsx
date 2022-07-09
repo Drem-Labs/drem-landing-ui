@@ -13,7 +13,7 @@ const Field = () => {
                                text-transparent bg-clip-text bg-gradient-to-r from-[#A814AB] to-[#0029FF] 
                                border-[#F0F0F0] border-[1px] rounded-[50px]
                                text-center font-700 text-[32px] leading-[20px] tracking-[0.25px] font-bold
-                               shadow-[2px_6px_4px_rgba(0,0,0,0.25)]">
+                               shadow-[2px_6px_4px_rgba(0,0,0,0.25)]" type="button">
                 Get Early Access
                 </button>
             </form>
