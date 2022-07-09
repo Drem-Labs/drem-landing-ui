@@ -24,11 +24,6 @@ class Footer extends React.Component {
         
         <UserField></UserField>
 
-        <div>
-
-        </div>
-        <button className="text-center bg-green-200 m-auto flex justify-center my-[50px]">Get Early Access</button>
-
         <div className="flex flex-row justify-center mt-[250px]">
           <img src='./images/icons/Twitter-icon.svg' alt="Drem's Twitter"/>
           <span className="ml-[43px] mr-[43px]">
