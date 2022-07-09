@@ -17,14 +17,19 @@ class Footer extends React.Component {
                          bg-clip-text
                          bg-gradient-to-r from-[#A814AB] to-[#0029FF]">Join Us</h1>
           <div className="text-[32px] leading-[48px] text-[#06080F]">
-            <p>Become a part of the community</p>
-            <p>reshaping the future. Coming soon</p>
+            <p>Become a part of the community creating</p>
+            <p>the future. It's yours, own it</p>
           </div>
         </div>
         
         <UserField></UserField>
 
-        <div className="flex flex-row justify-center mt-[504px]">
+        <div>
+
+        </div>
+        <button className="text-center bg-green-200 m-auto flex justify-center my-[50px]">Get Early Access</button>
+
+        <div className="flex flex-row justify-center mt-[250px]">
           <img src='./images/icons/Twitter-icon.svg' alt="Drem's Twitter"/>
           <span className="ml-[43px] mr-[43px]">
             <img src='./images/icons/drem-icon-blk.svg' alt="Drem Icon"/>
@@ -33,6 +38,9 @@ class Footer extends React.Component {
             <img src='./images/icons/gh-icon.svg' alt="Drem's Git Hub Page"/>
           </a>
         </div>
+
+        
+
       </div>
     )
   }
