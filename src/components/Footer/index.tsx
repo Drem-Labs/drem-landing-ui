@@ -10,7 +10,7 @@ class Footer extends React.Component {
                         font-semibold
                         -tracking-[1px]
                         text-center">
-          <h1 className="mt-[258px] 
+          <h1 className="mt-[258px]
                          text-[64px]
                          leading-[96px]
                          text-transparent
@@ -21,20 +21,18 @@ class Footer extends React.Component {
             <p>the future. It's yours, own it 💎</p>
           </div>
         </div>
-        
+
         <UserField></UserField>
 
         <div className="flex flex-row justify-center mt-[250px]">
           <img src='./images/icons/Twitter-icon.svg' alt="Drem's Twitter"/>
-          <span className="ml-[43px] mr-[43px]">
-            <img src='./images/icons/drem-icon-blk.svg' alt="Drem Icon"/>
-          </span>
+          <img className='ml-[43px] mr-[43px]' src='./images/icons/drem-icon-blk.svg' alt="Drem Icon"/>
           <a href="https://github.com/Drem-Labs">
             <img src='./images/icons/gh-icon.svg' alt="Drem's Git Hub Page"/>
           </a>
         </div>
 
-        
+
 
       </div>
     )
