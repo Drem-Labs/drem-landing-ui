@@ -18,7 +18,7 @@ class Footer extends React.Component {
                          bg-gradient-to-r from-[#A814AB] to-[#0029FF]">Join Us</h1>
           <div className="text-[32px] leading-[48px] text-[#06080F]">
             <p>Become a part of the community creating</p>
-            <p>the future. It's yours, own it</p>
+            <p>the future. It's yours, own it 💎</p>
           </div>
         </div>
         
