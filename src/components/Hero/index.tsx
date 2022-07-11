@@ -35,10 +35,10 @@ export default class Hero extends React.Component {
                 <div className="flex flex-row my-8">
                   <div className="w-3/4 mr-2">
                     <input
-                      className="bg-[#9498a4] opacity-25 appearance-none rounded w-full py-2 px-3 text-white focus:outline-none focus:shadow-outline"
+                      className="bg-[#9498a4]/25 appearance-none rounded w-full py-2 px-3 text-center text-white placeholder-white focus:outline-none focus:shadow-outline"
                       id="email"
                       type="text"
-                      placeholder="Email"
+                      placeholder="drem@example.app"
                     ></input>
                   </div>
                   <div className="w-1/4 ml-2">
