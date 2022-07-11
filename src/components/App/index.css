@@ -1,6 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Damion&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 
+html{
+  overflow-x: hidden;
+}
+
 .App {
   text-align: center;
 }
