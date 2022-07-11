@@ -4,9 +4,9 @@ import "./index.css";
 export default class Hero extends React.Component {
   render() {
     return (
-      <section className="flex relative text-white text-center">
+      <section className="flex relative h-screen text-white text-center">
         {/* Hero content */}
-        <div className="bg-hero bg-no-repeat bg-cover bg-center bg-fixed z-10">
+        <div className="bg-hero min-w-full bg-cover bg-center bg-no-repeat bg-fixed z-10">
           {/* Section header */}
           <div className="text-center mt-32 mb-96 h-full">
             <h1
