@@ -8,7 +8,7 @@ export default class Hero extends React.Component {
             <section className="flex relative text-white text-center">
 
                 {/* Hero content */}
-                {/*w-full fixed hero img; h-screen filled img height = screen height; not sure how to make it larger than actual screen */}
+                {/*w-full fixed hero img; h-[107] is 107% of screen height*/}
                 <div className="bg-hero bg-no-repeat bg-cover bg-center bg-fixed z-10 w-full h-[107vh]">
 
                     {/* Section header */}
