@@ -20,6 +20,7 @@ function App() {
 
       <div className="relative h-screen h-full bg-white shadow-[0_-8px_6px_6px_rgba(0,0,0,0.25)] z-50">
 
+      {/* <div className="relative bg-white shadow-[0_-8px_6px_6px_rgba(0,0,0,0.25)] z-30"> */}
         <div className="text-left pt-[200px]">
           <Subheading
             title={"Find Your Community"}
