@@ -11,7 +11,7 @@ function App() {
   return (
     <div className="w-screen">
 
-      <div className="fixed inset-x-0 top-0 z-30">
+      <div className="fixed inset-x-0 top-0 z-[60]">
         <Nav></Nav>  
       </div>
 
@@ -19,7 +19,7 @@ function App() {
         <Hero></Hero>  
       </div>
 
-      <div className="relative bg-white shadow-[0_-8px_6px_6px_rgba(0,0,0,0.25)] z-30">
+      <div className="relative h-screen h-full bg-white shadow-[0_-8px_6px_6px_rgba(0,0,0,0.25)] z-50">
 
         <div className="text-left pt-[200px]">
           <Subheading title={'Find Your Community'} text={'Take your first step in web3, together; with Drem, the more you engage with your community, the more you earn'} image={'../../images/sc-ui/post-sc-1.png'} img_pos={"float-right mr-[123px] pt-[373px]"} width={"920"} height={"377.03"} text_pos={"w-1/3 ml-[140px] pt-[373px]"} title_pos={"mb-[25px]"}/>
