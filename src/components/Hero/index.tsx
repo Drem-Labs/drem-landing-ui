@@ -43,10 +43,12 @@ export default class Hero extends React.Component {
                   </div>
                   <div className="w-2/5 ml-2">
                     <button
-                      className="bg-white hover:bg-white-700 text-black font-bold py-2 px-16 rounded-full focus:outline-none focus:shadow-outline"
+                      className="bg-white hover:bg-white-700 font-bold py-2 px-16 rounded-full focus:outline-none focus:shadow-outline"
                       type="button"
                     >
-                      Get Early Access
+                      <h2 className="bg-clip-text bg-gradient-to-r from-[#A814AB] to-[#0029FF] text-transparent">
+                        Get Early Access
+                      </h2>
                     </button>
                   </div>
                 </div>
