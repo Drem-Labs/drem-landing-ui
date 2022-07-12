@@ -9,7 +9,7 @@ export default class Hero extends React.Component {
 
                 {/* Hero content */}
                 {/*w-full fixed hero img; h-screen filled img height = screen height; not sure how to make it larger than actual screen */}
-                <div className="bg-hero bg-no-repeat bg-cover bg-center bg-fixed z-10 w-full h-screen">
+                <div className="bg-hero bg-no-repeat bg-cover bg-center bg-fixed z-10 w-full h-[107vh]">
 
                     {/* Section header */}
                     <div className="text-center mt-32 mb-96 h-full">
