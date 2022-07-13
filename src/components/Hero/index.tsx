@@ -10,7 +10,7 @@ export default class Hero extends React.Component {
           {/* Section header */}
           <div className="mt-28 2xl:mt-64 mb-96 h-full flex justify-center">
             <h1
-              className="text-7xl 2xl:text-9xl max-w-md 2xl:max-w-3xl font-extrabold drop-shadow-lg mb-4 fixed"
+              className="text-7xl 2xl:text-9xl font-extrabold drop-shadow-lg mb-4 fixed"
               data-aos="zoom-y-out"
             >
               Unleash Your Future
