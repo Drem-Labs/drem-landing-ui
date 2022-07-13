@@ -10,7 +10,7 @@ export default class Hero extends React.Component {
           {/* Section header */}
           <div className="text-center mt-32 mb-96 h-full">
             <h1
-              className="text-9xl md:text-6xl text-center font-extrabold drop-shadow-lg mb-4 mx-96"
+              className="text-7xl 2xl:text-9xl text-center font-extrabold drop-shadow-lg mb-4 mx-96 fixed"
               data-aos="zoom-y-out"
             >
               Unleash Your Future
@@ -19,9 +19,8 @@ export default class Hero extends React.Component {
         </div>
 
         {/* Second Layer */}
-        <div className="absolute inset-x-0 bottom-0 z-20">
-          <div className="bg-hero-toplayer bg-no-repeat bg-cover bg-center bottom-0">
-            <div className="flex flex-col max-w-3xl h-144 items-center justify-center mx-auto">
+        <div className="bg-hero-toplayer bg-no-repeat bg-cover bg-center absolute inset-x-0 bottom-0 top-0 z-20">
+            <div className="flex flex-col max-w-3xl h-144 items-center justify-center mx-auto bg-slate-400">
               <div className="mb-16 drop-shadow-lg">
                 <div className="my-8">
                   <p
@@ -54,7 +53,6 @@ export default class Hero extends React.Component {
                 </div>
               </div>
             </div>
-          </div>
         </div>
       </section>
     );
