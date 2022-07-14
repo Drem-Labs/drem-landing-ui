@@ -1,9 +1,15 @@
 import React from "react";
-import UserField from "../Footer/userField"
 import MailchimpForm from "../Form/MailchimpForm";
-// import ConfirmationScreen from "./ConfirmationScreen"
 
 class Footer extends React.Component {
+
+  styling = {
+    div: "text-center General-text text-base",
+    form: "",
+    input: "rounded-[10px] mt-[54px] bg-[#ebebeb99] w-[763px] h-[63px] text-center",
+    button: "py-[24px] px-[70px] m-auto mt-[67px] text-transparent bg-clip-text bg-gradient-to-r from-[#A814AB] to-[#0029FF] border-[#F0F0F0] border-[1px] rounded-[50px] text-center font-700 text-[32px] leading-[20px] tracking-[0.25px] font-bold shadow-[0_8px_10px_-1px_rgba(0,0,0,0.35)]"
+}
+
   render() {
     return (
       <div>
@@ -24,7 +30,7 @@ class Footer extends React.Component {
           </div>
         </div>
 
-        <MailchimpForm />
+        <MailchimpForm styling={this.styling} />
 
         <div className="flex flex-row justify-center mt-[250px]">
           <img src='./images/icons/Twitter-icon.svg' alt="Drem's Twitter"/>

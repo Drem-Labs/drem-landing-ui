@@ -1,8 +1,17 @@
 import React from 'react';
 import './index.css';
 import SignupForm from '../Form/SignupForm'
+import MailchimpForm from '../Form/MailchimpForm';
 
 export default class Hero extends React.Component {    
+
+    styling = {
+        div: "",
+        form: "flex flex-row my-8",
+        input: "w-3/5 mr-2 bg-[#9498a4] bg-opacity-25 appearance-none rounded w-full py-2 px-3 text-white text-center focus:outline-none focus:shadow-outline placeholder:text-white placeholder:font-[montserrat]",
+        button: "w-2/5 ml-2 bg-white hover:bg-white-700 text-black font-bold py-2 px-16 rounded-full focus:outline-none focus:shadow-outline"
+        
+    }
 
     render() {
         return (
@@ -37,7 +46,8 @@ export default class Hero extends React.Component {
                                         </button>
                                     </div>
                                 </div> */}
-                                <SignupForm></SignupForm>
+                                <MailchimpForm styling={this.styling} />
+                                {/* <SignupForm></SignupForm> */}
                             </div>
                             
 

@@ -1,7 +1,5 @@
 import { useState, useEffect} from "react";
-import MailchimpSubscribe from "react-mailchimp-subscribe";
 import ConfirmationScreen from "../Form/ConfirmationScreen"
-import UserField from "../Form/UserField";
 
 
 const SignupForm = ({status, message, onValidated}: any) => {
@@ -43,8 +41,7 @@ const SignupForm = ({status, message, onValidated}: any) => {
     return(
         <div className="text-center General-text text-base">
             <form className="" onSubmit={(e) => submitHandler(e)}>
-                {/* <input type="text" className="rounded-[10px] mt-[54px] bg-[#ebebeb99] w-[763px] h-[63px] text-center" placeholder="example@drem.app" value={email} onChange = {(e) => setEmail(e.target.value)} /> */}
-                <UserField userFieldCSS={"rounded-[10px] mt-[54px] bg-[#ebebeb99] w-[763px] h-[63px] text-center"}></UserField>
+                <input type="text" className="rounded-[10px] mt-[54px] bg-[#ebebeb99] w-[763px] h-[63px] text-center" placeholder="example@drem.app" value={email} onChange = {(e) => setEmail(e.target.value)} />
                 <br></br>
                 <button className="py-[24px] px-[70px] m-auto mt-[67px]
                                text-transparent bg-clip-text bg-gradient-to-r from-[#A814AB] to-[#0029FF] 
