@@ -1,16 +1,15 @@
 import React from 'react';
 import './index.css';
-import SignupForm from '../Form/SignupForm'
 import MailchimpForm from '../Form/MailchimpForm';
 
 export default class Hero extends React.Component {    
 
+    // styling for the subscription form in Hero
     styling = {
         div: "",
         form: "flex flex-row my-8",
         input: "w-3/5 mr-2 bg-[#9498a4] bg-opacity-25 appearance-none rounded w-full py-2 px-3 text-white text-center focus:outline-none focus:shadow-outline placeholder:text-white placeholder:font-[montserrat]",
         button: "w-2/5 ml-2 bg-white hover:bg-white-700 text-black font-bold py-2 px-16 rounded-full focus:outline-none focus:shadow-outline"
-        
     }
 
     render() {
@@ -36,22 +35,8 @@ export default class Hero extends React.Component {
                                 <div className="my-8">
                                     <p className="text-2xl font-bold mx-48" data-aos="zoom-y-out" data-aos-delay="150">Drem is your portal to the new internet economy</p>
                                 </div>
-                                {/* <div className="flex flex-row my-8">
-                                    <div className="w-3/4 mr-2">
-                                        <input className="bg-[#9498a4] opacity-25 appearance-none rounded w-full py-2 px-3 text-white focus:outline-none focus:shadow-outline" id="email" type="text" placeholder="Email"></input>
-                                    </div>
-                                    <div className="w-1/4 ml-2">
-                                        <button className="bg-white hover:bg-white-700 text-black font-bold py-2 px-16 rounded-full focus:outline-none focus:shadow-outline" type="button">
-                                            Join Us
-                                        </button>
-                                    </div>
-                                </div> */}
                                 <MailchimpForm styling={this.styling} />
-                                {/* <SignupForm></SignupForm> */}
                             </div>
-                            
-
-                            
                         </div>
 
                     </div>

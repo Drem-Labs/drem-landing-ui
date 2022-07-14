@@ -1,27 +1,28 @@
-import { Fragment, useState } from 'react'
+import { Fragment} from 'react'
 import { Dialog, Transition } from '@headlessui/react'
 import Emoji from '../Emoji'
 
-const ConfirmationScreen = ({isOpen, closeModal, status, message}) => {
+const ConfirmationScreen = ({isOpen, closeModal, status, message}: any) => {
     let alertTitle= <Dialog.Title></Dialog.Title>
     let alertText = <div></div>
 
     if (status === "success"){
-      alertTitle =  <Dialog.Title 
-                  as="h3"
-                  className="text-2xl font-[montserrat] font-extrabold leading-6 text-center uppercase text-transparent bg-clip-text  bg-gradient-to-r from-[#A814AB] to-[#0029FF]">
-                {status}
-                </Dialog.Title>
+      alertTitle = <Dialog.Title 
+                    as="h3"
+                    className="text-2xl font-[montserrat] font-extrabold leading-6 text-center uppercase text-transparent bg-clip-text  bg-gradient-to-r from-[#A814AB] to-[#0029FF]">
+                  {status}
+                  </Dialog.Title>
       alertText = <div>Thanks for coming on this journey with us!<Emoji symbol="✌️" label="peace"/></div>
     } else {
       alertTitle =  <Dialog.Title 
-                as="h3"
-                className="text-2xl font-[montserrat] font-extrabold leading-6 text-red-500 text-center uppercase">
-              {status}
-              </Dialog.Title>
+                      as="h3"
+                      className="text-2xl font-[montserrat] font-extrabold leading-6 text-red-500 text-center uppercase">
+                    {status}
+                    </Dialog.Title>
       alertText = <div>{message}</div>
     }
 
+    // custom alert code is from the first example at https://headlessui.com/react/dialog 
     return (
         <>
           <Transition appear show={isOpen} as={Fragment}>
@@ -53,7 +54,6 @@ const ConfirmationScreen = ({isOpen, closeModal, status, message}) => {
                       {alertTitle}
                       <div className="mt-4">
                         <p className="text-base text-slate-900 font-[montserrat] text-center">
-                            {/* Thank you for signing up for DREM. An email will be sent to you shortly. */}
                             {alertText}
                         </p>
                       </div>

@@ -3,6 +3,7 @@ import MailchimpForm from "../Form/MailchimpForm";
 
 class Footer extends React.Component {
 
+  // styling for the subscription form in the footer
   styling = {
     div: "text-center General-text text-base",
     form: "",
