@@ -1,5 +1,7 @@
 import React from "react";
 import UserField from "../Footer/userField"
+import MailchimpForm from "../Form/MailchimpForm";
+// import ConfirmationScreen from "./ConfirmationScreen"
 
 class Footer extends React.Component {
   render() {
@@ -22,7 +24,7 @@ class Footer extends React.Component {
           </div>
         </div>
 
-        <UserField></UserField>
+        <MailchimpForm />
 
         <div className="flex flex-row justify-center mt-[250px]">
           <img src='./images/icons/Twitter-icon.svg' alt="Drem's Twitter"/>
