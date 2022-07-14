@@ -49,7 +49,9 @@ const SignupForm = ({status, message, onValidated, styling}: any) => {
             <form className={styling.form} onSubmit={(e) => submitHandler(e)}>
                 <input type="text" className={styling.input} placeholder="example@drem.app" value={email} onChange = {(e) => setEmail(e.target.value)} />
                 <br></br>
-                <button className={styling.button}> Get Early Access </button>
+                <button className={styling.button}> 
+                    <h2 className={styling.header}>Get Early Access</h2>
+                </button>
             </form>
             <ConfirmationScreen isOpen={isOpen} closeModal={closeModal} status={status} message={message}/>
         </div>
