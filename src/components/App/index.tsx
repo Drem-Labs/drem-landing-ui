@@ -27,6 +27,7 @@ function App() {
           <Subheading title={'Find Your Community'} text={'Take your first step in web3, together; with Drem, the more you engage with your community, the more you earn'} image={'../../images/sc-ui/post-sc-1.png'} img_pos={"float-right mr-[156px] pt-[373px]"} width={"920"} height={"377.03"} text_pos={"w-1/3 ml-[187px] pt-[373px]"} title_pos={"mb-[25px]"} line_pos={"my-[300px]"}/>
         </div>
         
+         
         <div className="text-right">
           <Subheading title={'Share Your Journey'} text={'Explore all activity in one simple interface; own, learn, and share every step of your experience'} image={'./images/sc-ui/user-strats-sc-1.png'} img_pos={"float-left align-middle ml-[212px] mr-[17px]"} width={"879"} height={"424"} text_pos={"place-content-end -w-1/8 mr-[209px] pb-[100px]"} title_pos={"mb-[25px]"} line_pos={"my-[230px]"}/>
         </div>
