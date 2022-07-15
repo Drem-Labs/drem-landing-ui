@@ -8,8 +8,9 @@ export default class Hero extends React.Component {
     styling = {
         div: "",
         form: "flex flex-row my-8",
-        input: "w-3/5 mr-2 bg-[#9498a4] bg-opacity-25 appearance-none rounded w-full py-2 px-3 text-white text-center focus:outline-none focus:shadow-outline placeholder:text-white placeholder:font-[montserrat]",
-        button: "w-2/5 ml-2 bg-white hover:bg-white-700 text-black font-bold py-2 px-16 rounded-full focus:outline-none focus:shadow-outline"
+        input: "w-3/5 mr-2 bg-[#9498a4]/25 appearance-none rounded w-full py-2 px-3 text-center text-white placeholder-white focus:outline-none focus:shadow-outline",
+        button: "bg-white hover:bg-white-700 font-bold py-2 px-16 rounded-full focus:outline-none focus:shadow-outline",
+        header: "bg-clip-text bg-gradient-to-r from-[#A814AB] to-[#0029FF] text-transparent"
     }
 
     render() {
@@ -33,22 +34,7 @@ export default class Hero extends React.Component {
                               <div className="my-8">
                                   <p className="text-2xl font-bold mx-48" data-aos="zoom-y-out" data-aos-delay="150">Drem is your portal to the new internet economy</p>
                               </div>
-                              <div className="flex flex-row my-8">
-                                    <div className="w-3/5 mr-2">
-                                        <input className="bg-[#9498a4]/25 appearance-none rounded w-full py-2 px-3 text-center text-white placeholder-white focus:outline-none focus:shadow-outline"
-                                               id="email"
-                                               type="text"
-                                               placeholder="drem@example.app"
-                                               ></input>
-                                    </div>
-                                    <div className="w-2/5 ml-2">
-                                        <button className="bg-white hover:bg-white-700 font-bold py-2 px-16 rounded-full focus:outline-none focus:shadow-outline" type="button">
-                                          <h2 className="bg-clip-text bg-gradient-to-r from-[#A814AB] to-[#0029FF] text-transparent">
-                                            Get Early Access
-                                          </h2>
-                                        </button>
-                                    </div>
-                              </div>
+                              <MailchimpForm styling={this.styling} />
                         </div>
                     </div>
                 </div>
