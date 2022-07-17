@@ -6,7 +6,7 @@ export default class Hero extends React.Component {
 
     // styling for the subscription form in Hero
     styling = {
-        div: "mx-15",
+        div: "mx-15 sm:mx-0",
         form: "flex flex-row my-8",
         input: "w-3/5 mr-2 bg-[#9498a4]/25 appearance-none rounded w-full py-2 px-3 text-center text-white placeholder-white focus:outline-none focus:shadow-outline",
         button: "bg-white hover:bg-white-700 font-bold py-2 px-16 rounded-full focus:outline-none focus:shadow-outline",
