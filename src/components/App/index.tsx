@@ -11,7 +11,7 @@ export {};
 
 function App() {
   return (
-    <div className="w-screen">
+    <div className="w-screen overflow-hidden">
 
       <div className="fixed inset-x-0 top-0 z-30">
         <Nav></Nav>
@@ -33,7 +33,7 @@ function App() {
         </div>
 
         <div className="text-left">
-          <Subheading title={'Build Your Frontier'} text={'Create or mirror the best investment strategies; you don\'t need to be an expert to invest like one'} image={'images/sc-ui/portfolio-sc-2.png'} img_pos={"float-right align-middle mr-[313px] mt-[40px] 2xl:mt-[140px]"} width={"300 2xl:541"} height={"681.87"} text_pos={"w-1/3 ml-[312px]"} title_pos={"mb-[25px] mt-[100px]"} line_pos={"my-[200px] 2xl:my-[400px]"}/>
+          <Subheading title={'Build Your Frontier'} text={'Create or mirror the best investment strategies; you don\'t need to be an expert to invest like one'} image={'images/sc-ui/portfolio-sc-2.png'} img_pos={"float-right align-middle mr-[313px] mt-[40px] 2xl:mt-[120px]"} width={"300 2xl:541"} height={"681.87"} text_pos={"w-1/3 ml-[312px]"} title_pos={"mb-[25px] mt-[100px]"} line_pos={"my-[200px] 2xl:my-[400px]"}/>
         </div>
 
         <Footer></Footer>
