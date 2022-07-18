@@ -12,7 +12,7 @@ function Subheading(props: any) {
                           {props.title}
                       </h3>
                   </div>
-                  <h4 className="text-sm sm:text-[32px] sm:leading-[48px] text-[#06080F]">
+                  <h4 className="text-sm sm:text-[32px] 2xl:text-5xl sm:leading-[48px] text-[#06080F]">
                     {/* displays description of subheading */}
                     {props.text}
                   </h4>
