@@ -60,7 +60,7 @@ function App() {
                       img_pos={"w-[300px] sm:w-[541px] object-contain pl-24 mt-[40px] 2xl:mt-[120px]"}
                       text_pos={"sm:w-1/3 mx-3 sm:ml-[250px]"}
                       title_pos={"mb-[25px] mt-[100px]"}
-                      line_pos={"my-[90px] sm:my-[200px] 2xl:my-[400px]"}
+                      line_pos={"mt-[90px] sm:mt-[200px] 2xl:mt-[400px]"}
           />
         </div>
         <Footer></Footer>
