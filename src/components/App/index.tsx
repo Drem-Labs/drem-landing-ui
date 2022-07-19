@@ -29,9 +29,9 @@ function App() {
                       text={'Take your first step in web3, together; with Drem, the more you engage with your community, the more you earn'}
                       image={'../../images/sc-ui/post-sc-1.png'}
                       img_pos={"object-contain w-[817px] 2xl:w-[1225px] sm:mr-96 sm:pl-24 pt-4 sm:pt-[150px] 2xl:pt-[300px]"}
-                      text_pos={"sm:w-1/3 ml-3 sm:ml-[150px] 2xl:ml-[800px] pt-4 sm:pt-[150px] 2xl:pt-[373px]"}
+                      text_pos={"sm:w-1/3 ml-3 sm:ml-[150px] 2xl:ml-[800px] pt-[110px] sm:pt-[150px] 2xl:pt-[373px]"}
                       title_pos={"mb-[25px]"}
-                      line_pos={"my-[90px] sm:my-[180px] 2xl:my-[300px]"}
+                      line_pos={"my-[110px] sm:my-[180px] 2xl:my-[300px]"}
           />
         </div>
 
