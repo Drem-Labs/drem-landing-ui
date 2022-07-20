@@ -20,7 +20,7 @@ function Subheading(props: any) {
               <img alt="Subheader Img" className={props.img_pos} width={props.width} height={props.height} src={props.image}></img>
             </div>
             <div className={props.line_pos}>
-                <div className="w-[639px] border-t-[1px] border-[#7A7A7A] mx-auto"></div>
+                <div className="w-[225px] sm:w-[639px] border-t-[1px] border-[#7A7A7A] mx-auto"></div>
             </div>
             {/* creates the line/border to separate subheadings */}
             {/* each subheading has different sizes so use line_pos to make each subheading section the same size */}
