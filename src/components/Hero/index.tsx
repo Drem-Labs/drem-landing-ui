@@ -6,10 +6,10 @@ export default class Hero extends React.Component {
 
     // styling for the subscription form in Hero
     styling = {
-        div: "",
+        div: "mx-8 sm:mx-0",
         form: "flex flex-row my-8",
-        input: "w-3/5 mr-2 bg-[#9498a4]/25 appearance-none rounded w-full py-2 px-3 text-center text-white placeholder-white focus:outline-none focus:shadow-outline",
-        button: "bg-white hover:bg-white-700 font-bold py-2 px-16 rounded-full focus:outline-none focus:shadow-outline",
+        input: "w-1/2 sm:w-3/5 mr-2 bg-[#9498a4]/25 appearance-none rounded py-2 px-3 text-center text-white placeholder-white focus:outline-none focus:shadow-outline",
+        button: "w-1/2 sm:w-1/4 bg-white hover:bg-white-700 font-bold py-2 px-4 rounded-full focus:outline-none focus:shadow-outline",
         header: "bg-clip-text bg-gradient-to-r from-[#A814AB] to-[#0029FF] text-transparent"
     }
 
@@ -22,7 +22,7 @@ export default class Hero extends React.Component {
 
                     {/* Section header */}
                     <div className="mt-28 2xl:mt-64 mb-96 h-full flex justify-center">
-                        <h1 className="text-7xl 2xl:text-9xl font-extrabold drop-shadow-lg mb-4 fixed" data-aos="zoom-y-out">Unleash Your Future</h1>
+                        <h1 className="text-5xl sm:text-7xl 2xl:text-9xl font-extrabold drop-shadow-lg mb-4 fixed" data-aos="zoom-y-out">Unleash Your Future</h1>
                     </div>
                 </div>
 
@@ -32,7 +32,7 @@ export default class Hero extends React.Component {
                     <div className="flex flex-col max-w-3xl h-full mt-32 items-center justify-center mx-auto">
                         <div className="mb-16 drop-shadow-lg">
                               <div className="my-8">
-                                  <p className="text-2xl font-bold mx-48" data-aos="zoom-y-out" data-aos-delay="150">Drem is your portal to the new internet economy</p>
+                                  <p className="text-lg sm:text-2xl font-bold mx-16 sm:mx-48" data-aos="zoom-y-out" data-aos-delay="150">Drem is your portal to the new internet economy</p>
                               </div>
                               <MailchimpForm styling={this.styling} />
                         </div>

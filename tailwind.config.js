@@ -9,7 +9,10 @@ module.exports = {
         gray1: '#7A7A7A',
       },
       fontFamily: {
-        'damion': ['Damion', 'sans-serif'] 
+        'damion': ['Damion', 'sans-serif']
+      },
+      screens: {
+        '3xl': '3840px',
       },
       spacing: {
         '13': '3.25rem',
