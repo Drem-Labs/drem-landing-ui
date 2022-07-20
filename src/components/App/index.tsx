@@ -41,7 +41,7 @@ function App() {
                       text={'Explore all activity in one simple interface; own, learn, and share every step of your experience'}
                       image={'./images/sc-ui/user-strats-sc-1.png'}
                       img_pos={"object-contain w-[640px] 2xl:w-[1225px] ml-4 sm:ml-32 2xl:ml-80 pr-[40px]"}
-                      text_pos={"ml-4 sm:mr-32 pt-36 sm:pt-16 pb-8 3xl:pb-0"}
+                      text_pos={"ml-4 sm:mr-32 pt-36 sm:pt-8 pb-8 3xl:pb-0"}
                       title_pos={"mb-[25px]"}
                       line_pos={"mt-[150px] sm:my-[220px] 2xl:my-[230px]"}
           />
