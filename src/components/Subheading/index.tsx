@@ -18,7 +18,7 @@ function Subheading(props: any) {
                     {props.text}
                   </h4>
               </div>
-              <img alt="Subheader Img" className={props.img_pos} width={props.width} height={props.height} src={props.image}></img>
+              <img alt="Subheader Img" className={props.img_pos} src={props.image}></img>
             </div>
             <div className={props.line_pos}>
                 <div className="w-[225px] sm:w-1/2 lg:w-[639px] border-t-[1px] border-[#7A7A7A] mx-auto"></div>
