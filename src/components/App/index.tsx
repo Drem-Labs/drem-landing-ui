@@ -28,8 +28,8 @@ function App() {
                       title={'Find Your Community'}
                       text={'Take your first step in web3, together; with Drem, the more you engage with your community, the more you earn'}
                       image={'../../images/sc-ui/post-sc-1.png'}
-                      img_pos={"object-contain w-[350px] sm:w-[650px] md:w-2/3 2xl:w-[1050px] sm:mr-36 pl-8 sm:pl-16 pt-16 sm:pt-36 2xl:pt-[360px]"}
-                      text_pos={"ml-8 mr-8 sm:mr-0 sm:ml-36 md:ml-9 lg:ml-10 pt-36 2xl:pt-96"}
+                      img_pos={"object-contain w-[350px] sm:w-[650px] md:w-2/3 2xl:w-[1050px] sm:mr-36 pl-8 sm:pl-16 lg:-ml-16 lg:pl-32 pt-16 sm:pt-36 2xl:pt-[360px]"}
+                      text_pos={"ml-8 mr-8 sm:mr-0 sm:ml-36 md:ml-9 lg:ml-14 pt-36 2xl:pt-96"}
                       title_pos={"mb-[25px]"}
                       line_pos={"mt-[120px] sm:my-[180px] 2xl:my-[300px]"}
           />
