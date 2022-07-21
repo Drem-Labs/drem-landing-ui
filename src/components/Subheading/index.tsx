@@ -7,13 +7,13 @@ function Subheading(props: any) {
             <div className={props.layout}>
               <div className={props.text_pos}>
                   <div className = {props.title_pos}>
-                      <h3 className="text-4xl sm:text-3xl md:text-4xl lg:text-6xl 2xl:text-8xl 
+                      <h3 className="text-4xl sm:text-3xl md:text-4xl lg:text-6xl 2xl:text-8xl
                                      pb-2 md:pb-3 xl:pb-4 pr-2 text-transparent bg-clip-text bg-gradient-to-r from-[#A814AB] to-[#0029FF]">
                           {/* displays title of subheading */}
                           {props.title}
                       </h3>
                   </div>
-                  <h4 className="text-sm sm:text-base md:text-lg lg:text-3xl 2xl:text-5xl text-[#06080F]">
+                  <h4 className="font-medium text-sm sm:text-base md:text-lg lg:text-3xl 2xl:text-5xl text-[#06080F]">
                     {/* displays description of subheading */}
                     {props.text}
                   </h4>
