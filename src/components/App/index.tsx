@@ -29,7 +29,7 @@ function App() {
                       text={'Take your first step in web3, together; with Drem, the more you engage with your community, the more you earn'}
                       image={'../../images/sc-ui/post-sc-1.png'}
                       img_pos={"object-contain w-[350px] sm:w-1/2 md:w-2/3 xl:w-1/2 2xl:w-[1050px] sm:mr-16 pl-8 sm:pl-16 lg:-ml-16 xl:mr-36 lg:pl-32 pt-16 sm:pt-36 2xl:pt-[360px]"}
-                      text_pos={"ml-8 mr-8 sm:mr-0 sm:ml-12 md:ml-9 lg:ml-14 xl:ml-36 pt-36 2xl:pt-96"}
+                      text_pos={"ml-8 mr-8 sm:mr-0 sm:ml-16 md:ml-9 lg:ml-14 xl:ml-36 pt-36 2xl:pt-96"}
                       title_pos={"mb-0 lg:mb-[25px]"}
                       line_pos={"mt-[120px] sm:my-[180px] 2xl:my-[300px]"}
           />
@@ -52,8 +52,8 @@ function App() {
                       title={'Build Your Frontier'}
                       text={'Create or mirror the best investment strategies; you don\'t need to be an expert to invest like one'}
                       image={'images/sc-ui/portfolio-sc-2.png'}
-                      img_pos={"object-contain w-[300px] sm:w-1/2 xl:w-1/2 2xl:w-[650px] sm:mr-16 md:mr-10 xl:mr-72 2xl:mr-96 pl-20 2xl:pl-48 pt-8 sm:pt-0"}
-                      text_pos={"ml-8 mr-8 sm:mr-0 sm:ml-12 md:ml-9 lg:ml-40 xl:ml-72 sm:pb-16"}
+                      img_pos={"object-contain w-[300px] sm:w-1/2 2xl:w-[650px] sm:mr-16 md:mr-10 xl:mr-72 2xl:mr-96 pl-20 2xl:pl-48 pt-8 sm:pt-0"}
+                      text_pos={"ml-8 mr-8 sm:mr-0 sm:ml-16 md:ml-9 lg:ml-40 xl:ml-72 sm:pb-16"}
                       title_pos={"mb-0 lg:mb-[25px] mt-[100px] 3xl:mt-[150px]"}
                       line_pos={"mt-[150px] sm:mt-[180px] 2xl:mt-[300px]"}
           />
