@@ -52,8 +52,8 @@ function App() {
                       title={'Build Your Frontier'}
                       text={'Create or mirror the best investment strategies; you don\'t need to be an expert to invest like one'}
                       image={'images/sc-ui/portfolio-sc-2.png'}
-                      img_pos={"object-contain w-[300px] sm:w-[450px] md:w-1/2 2xl:w-[650px] sm:mr-72 md:mr-10 lg:mr-14 2xl:mr-96 pl-20 2xl:pl-48 pt-8 sm:pt-0"}
-                      text_pos={"ml-8 mr-8 sm:mr-0 sm:ml-72 md:ml-9 lg:ml-10 sm:pb-16"}
+                      img_pos={"object-contain w-[300px] sm:w-[450px] md:w-1/2 2xl:w-[650px] sm:mr-72 md:mr-10 lg:mr-10 2xl:mr-96 pl-20 2xl:pl-48 pt-8 sm:pt-0"}
+                      text_pos={"ml-8 mr-8 sm:mr-0 sm:ml-72 md:ml-9 lg:ml-40 sm:pb-16"}
                       title_pos={"mb-[25px] mt-[100px] 3xl:mt-[150px]"}
                       line_pos={"mt-[150px] sm:mt-[180px] 2xl:mt-[300px]"}
           />
