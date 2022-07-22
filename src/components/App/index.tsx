@@ -10,7 +10,7 @@ export {};
 
 function App() {
   return (
-    <div className="w-screen overflow-hidden">
+    <div className="w-full overflow-hidden">
 
       <div className="fixed inset-x-0 top-0 z-30">
         <Nav></Nav>
